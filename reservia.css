@@ -1,0 +1,563 @@
+*
+{
+  font-family: 'Raleway', sans-serif;
+
+}
+ 
+
+ a  
+{
+  text-decoration: none;
+   
+}
+
+main img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    margin:30px;
+}
+.logo
+{
+  margin-right: auto;
+  padding: 0px 10px;
+}
+main
+{
+  margin :0px 50px;
+}
+
+.navigation
+{
+   height: 100%;
+   display: flex;
+   align-items: center;
+
+}
+
+.navigation_,.inscription
+{
+  
+   height: 100%;
+   display: flex;
+   align-items: center;
+   padding: 0 10px;
+
+}
+.navigation_ 
+{
+  color: grey;
+
+
+}
+
+
+
+.inscription
+{
+  font-weight:bold;
+  color: #0065FC;
+}
+p
+{
+ 
+  font-size: small;
+
+}
+
+.navigation               /*SURVOL */
+a:hover
+{  
+  
+    color:#0065FC;  
+    border-top:2px #0065FC solid;
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  margin:0px;
+}
+
+
+.section1 h1
+{
+ font-size: 20px;
+ margin: 0px 0px;
+} 
+.section1 p
+{
+  margin: 5px 0px;
+  margin-bottom: 10px;
+} 
+
+.recherche 
+{
+  display: flex;
+  justify-content: flex-start;
+}
+.recherche i
+{
+
+   padding:10px;
+   background-color: #F2F2F2;
+   border-radius: 10px 0px 0px 10px;
+}
+
+.saisie
+{
+  font-weight: bold;
+   color: black;
+   background-color: white;
+   border-color: transparent;
+     
+}
+input::placeholder {
+  color: black;
+}
+
+.button
+{
+   color: white;
+   background-color: #0065FC;
+   border-radius: 0px 10px 10px 0px ;
+   border:none;
+   padding: 0px 10px 0px 10px; 
+
+}
+
+button
+{
+color: white;
+   background-color: #0065fc;
+   border-radius: 10px;
+   display:none;
+
+ border: none;
+}
+
+.loupe i
+{
+  background-color: #0065FC;
+
+}
+
+h4{
+  padding-right: 5px;
+  margin-top: 0px;
+}
+.filtre
+{
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  justify-content:flex-start;
+  border-radius: 40px;
+  font-weight: bold;
+  align-items: flex-end;
+
+
+
+}
+.filtre i
+{
+   padding: 16px;
+   color: #0065FC;
+   background-color: #DEEBFF;
+   border-radius: 30px;
+   
+}
+
+.filtre a
+{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 10px ;
+ 
+  align-items: center;
+  font-size: 14px;
+  border:2px solid #F2F2F2;
+  border-radius: 30px;
+
+
+}
+.filtre a:hover
+{
+ transform: scale(1.2); 
+}
+
+.motfiltre
+{
+  padding: 0px 10px 0px 3px;
+  color:black;
+}
+
+.section1 p i 
+{
+
+  color: #0065FC;
+  margin: 10px;
+}
+
+
+#section2 a,#section3 a
+{
+  box-shadow: 0px 0px 5px grey;
+  border-radius: 15px;
+  overflow: hidden;
+
+}
+
+
+
+
+
+                                            /* SECTION 2*/
+
+#section2                                    /*HEBERGEMENT + ASIDE */
+{
+  display: flex;
+  justify-content: space-between;
+  height: 610px;
+  
+}
+
+
+                                            /* HEBERGEMENT*/
+
+
+#hebergement            /*CONTAINER HEBERGEMENT =4items :titre+ligne+ligne+titre**/
+{   
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    width: 60%;
+    border-radius:15px;
+    background-color: #F2F2F2;
+    max-height: 550px;
+}
+
+#sectionhebergement       /*TITRE HEBERGEMENT A MARSEILLE */
+{
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+.ligne
+                                                              
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 15px;
+  height: 33%;
+  width: 100%;
+}
+
+.h                          /*miniatures resultat hebergement*/
+{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  margin: 5px;
+  padding: 0px 3px 3px;
+  height: 95%;
+  width: 100%;
+  border-radius:15px;
+  background-color: white;
+  
+}
+
+a:hover
+{
+   transform: scale(1.1); 
+}
+
+
+
+
+#ap                         /*afficher plus*/
+{
+  margin: 5px;
+  padding: 5px;
+  align-self: flex-start;
+}
+
+#sectionhebergement
+{
+  align-self: flex-start;
+}
+.picheb                     /*pictures  miniature*/
+{
+  display: flex;
+  align-self: center;
+  height: 100%;
+  width:100%;
+  border:2px solid white;
+  border-radius: 15px 15px 0px 0px;
+ overflow: hidden;
+ margin-bottom: 5px;
+ }
+
+
+
+                           
+.descripheb                 /*NOM LOGEMENT + PRIX + STARS*/
+{
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  flex-wrap: nowrap;
+}
+
+h5
+{
+  margin: 2px 5px;
+  color: black;
+  font-weight: bold;
+
+}
+.prix
+{
+   margin: 2px 5px;
+  color: black;
+}
+.prix strong
+{
+  font-weight: bold;
+}
+
+.stars
+{
+  margin: 2px 5px 9px;
+  display: flex;
+ flex-wrap: nowrap;
+ color: #0065FC;
+ 
+}
+                                          /* ASIDE POPULAIRES */                 
+
+
+.populaires
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F2F2;
+  margin: 10px;
+  padding: 10px;
+  border-radius:15px;
+  height: 90%;
+  width:40%;
+
+}
+
+
+
+.populaires h4
+{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 0px 0px;
+    text-align: left;
+    width: 90%;
+
+}
+
+
+.p
+{
+    display: flex;
+   justify-content: space-between;
+    padding: 2px;
+    margin:10px;
+    height: 30%;   
+    width: 90%;
+    border-radius: 15px;
+    background-color: white;
+
+
+
+}
+.p img {
+    width: 40%;
+    height: 100%;
+    border-radius: 15px 0px 0px 20px;
+    object-fit: cover;
+}
+
+.description {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-left: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+                                            /*SECTION 3 =TITRE +ACTIVITES*/
+
+#section3
+{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-between;
+  height: 600px;
+  overflow: hidden;
+}
+
+.titresection3              /*Titre section 3*/
+{
+
+}
+.activitesam                /*LISTE DES ACTIVITES = 1+2+1+2*/
+{
+  display: flex;
+  height: 90%;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.activitesam  a:hover
+{
+ transform: scale(1.2); 
+
+}
+
+
+.une                        /*COLONNE AVEC 1 ACTIVITE*/
+{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+     margin-right: 30px;
+
+}
+
+.deux                      /*COLONNE AVEC 2 ACTIVITE= min + min*/
+{    width: 20%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    justify-content:space-between;
+  
+ }
+
+
+.description3 {
+    align-self: center;
+    margin: 5px;
+    padding: 3px;
+    width: 100%;
+    height: 15px;
+
+  }
+
+.min3                      /*activites taille 1/2*/
+
+{   width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    justify-content: flex-start;
+
+   
+}
+
+.min3a                      /*activites taille 1/2*/
+
+{   width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    justify-content: flex-start;
+
+   
+}
+.min3b                      /*activites taille 1/2*/
+
+{   width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    justify-content: space-between;
+
+   
+}
+
+
+.pic3m
+{
+  height: 100%;
+  overflow:hidden;
+
+}
+
+.description3m
+{
+
+  width: 100%;
+  height: 10%;
+
+}
+   
+
+
+
+
+
+
+
+                            /*FOOTER*/
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding: 40px;
+
+}
+.footer div
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+

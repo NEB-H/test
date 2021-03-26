@@ -1,0 +1,190 @@
+button
+{
+
+   display:block;
+
+ 
+}
+
+.button
+{
+  display: none;
+}
+
+.saisie
+{
+  width: 75%;
+}
+.header
+{
+  height:170px;
+  margin-top:0;
+
+}
+.logo {
+    margin-right: 0;
+    height: 30%;
+}
+.inscription
+{
+  height:50%;
+  font-size:medium;
+  padding:0px 20px;
+}
+.navigation
+{
+  height:50%;
+}
+
+#hebergement,.populaires
+{
+ margin:0px ;
+ border-radius: 0  ;
+ height: auto;
+ min-height: 50vh;
+}
+
+#hebergement
+{
+  background-color: white;
+
+}
+
+.section1 p i {
+
+    color: #0065FC;
+    margin: 0px 10px 10px 0px;
+
+}
+.filtre a
+{
+
+  margin: 10px 10px 10px 0px ;
+}
+
+.section1, .section3,  #hebergement
+
+{
+  margin: 0px 15px;
+}
+
+main
+{ 
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+.ligne {
+   flex-wrap: wrap;
+   margin-bottom: 0;
+   height:775px;
+   justify-content: space-between;
+   align-content: initial;
+}
+
+/**TAILLE SECTION**/
+.section1
+{max-height: 715px;}
+
+  
+
+#section2
+{
+  max-height: 3000px;
+  height: auto;
+  justify-content: flex-end;
+   background-color: red;
+}
+
+#section3
+{
+
+ margin:0;
+ padding:0;
+ height: auto; 
+ justify-content: flex-end;
+ align-items: center;
+
+ background-color: pink;
+}
+
+#section3 h4
+{
+  align-self: flex-start;
+  margin:10px;
+  padding:10px;
+
+}
+
+/**TAILLE hebergement aside **/
+
+#hebergement
+{
+  max-height:1850px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #8BC34A;
+  
+}
+  
+
+
+.populaires
+{
+  max-height:775px;
+}
+
+.h{
+
+  height:25%;
+  margin:10px;
+}
+
+                                /**taille activite**/
+
+
+.activitesam
+{
+  flex-direction: column;
+  margin:10px;
+  padding: 10px;
+  background-color: red;
+  width: auto;
+  align-items:baseline;
+
+}
+
+.une
+
+{
+  background-color: green;  
+  height:17%;
+  width: 100%;
+  justify-content: center; 
+  margin:20px 0; 
+ }
+
+.min3a, .min3b, .min3
+{
+   width: 100%;
+  height: 50%;
+  margin:20px 0;
+}
+
+.deux
+{
+  background-color: blue;
+  width: 100%;
+  height: 33%;
+  justify-content: space-around;
+}
+
+
+
+footer
+{
+  flex-direction: column;
+}
